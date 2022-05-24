@@ -82,3 +82,31 @@ button {
     background-color: #3882F6;
     color: #fff;
 }
+
+/**
+panel 2 content
+**/
+
+.panel2 h2 {
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+}
+
+.panel2-content {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 30px;
+}
+
+
