@@ -125,4 +125,30 @@ panel 2 content
     margin-left: 60px;
 }
 
+/**
+Panel 3 Content 
+**/
+
+.panel3 {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel3 p {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+span {
+    font-weight: bold;
+    text-align: right;
+    margin-left: 200px;
+}
+
 
