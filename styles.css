@@ -87,6 +87,10 @@ button {
 panel 2 content
 **/
 
+.panel2 {
+    height: 400px;
+}
+
 .panel2 h2 {
     text-align: center;
     color: black;
@@ -97,16 +101,28 @@ panel 2 content
 .square {
     height: 150px;
     width: 150px;
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 .panel2-content {
     display: flex;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content: center;
-    gap: 30px;
+    gap: 10px; 
+}
+
+.square1, .square2, .square3, .square4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel2-content p {
+    margin-left: 60px;
 }
 
 
