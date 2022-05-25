@@ -151,4 +151,43 @@ span {
     margin-left: 200px;
 }
 
+.panel4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.container {
+    width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+}
+
+.content button {
+    border: 1px solid white;
+}
+
+.content button:hover{
+    background-color: white;
+    border: 1px solid #3882F6;
+    color: #3882F6;
+}
+
 
