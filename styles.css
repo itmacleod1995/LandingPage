@@ -151,6 +151,10 @@ span {
     margin-left: 200px;
 }
 
+/**
+Panel 4 content
+**/
+
 .panel4 {
     display: flex;
     justify-content: center;
@@ -188,6 +192,19 @@ span {
     background-color: white;
     border: 1px solid #3882F6;
     color: #3882F6;
+}
+
+/**
+Panel 5 Content
+**/
+
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
